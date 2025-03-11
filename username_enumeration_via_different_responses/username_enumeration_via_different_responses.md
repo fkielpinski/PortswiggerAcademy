@@ -1,5 +1,7 @@
-## Identify vulnerability
+To streamline the process, we can first export the environment variable for the target URL:
+```
 export TARGET="https://<random-url>.web-security-academy.net"
+```
 
 To interact with a login form programmatically, we first need to identify the name attributes of the username and password input fields. These attributes tell us what parameters to send in our requests.
 
